@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Coding Challenge1</title>
+        <link rel="stylesheet" href="challenge1.css">
+        <script src="challenge1.js"></script>
+       
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+        </head>
+        <body>
+<div class="header-section">
+    <img src="logo.jpg" class="logo">
+    <div class="menu-bar">
+        <a href="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="">AboutUs</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">SignIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="">SignUp</a></div>
+                    <br> <br><br><br><br><div> <p class="para-1">welcome to our website</p></div>
+
+
+
+                    <h1>Registered Users</h1>
+                    
+
+                    <div class="main">
+                        <h2 class="main-header">Comment text analysys</h2>
+                        <section class="main-input-comment">
+                            <label for="comment">Write your comment here:</label>
+                            <textarea
+                                    name="comment"
+                                    id="comment"
+                                    class="main-comment-area"
+                                    placeholder="Your comment..."
+                            >
+                            </textarea>
+                            <button class="main-analyze-button" onclick="onAnalyzeButtonClick()">Analyze...</button>
+                        </section>
+                        <section class="main-result">
+                            <p id="main-result-block" class="main-result-block invisible">
+                                <span>Result:</span>
+                                <span id="result"></span>
+                            </p>
+                        </section>
+                    </div>
+                    <!-- Import axios library -->
+                    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+                    <!-- Querystring library -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+                    <!-- Import our javascript file -->
+                    <script src="challenge1.js"></script>
+
+                      </body>
+</html>
